@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~Uys3wDoR#IWBfRFPzpyfQrc-uX7rzUCTL5YcgoOW2l-XiUJcPeEQ' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~9nsQmQaL#nhON9I8l-p-2GP0p_NvVj_tHLyo-RQejBW8Qr15efG8' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -28,7 +28,7 @@ global.ownernumber = process.env.OWNER_NUMBER || '22890775400'
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['22890775400', '22890775400'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
